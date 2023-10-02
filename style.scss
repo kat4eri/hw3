@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: "Montserrat", sans-serif;
+}
+  
+.center {
+    padding-left: calc(50% - 500px);
+    padding-right: calc(50% - 500px);
+}
+  
+.top {
+    height: 1024px;
+    background-image: url(img/Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+  
+.top__text {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    width: 481px;
+    padding-bottom: 44px;
+}
+  
+.colortext {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+  
+.tittle {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    width: 788px;
+    height: 125px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    padding-bottom: 32px;
+    padding-top: 217px;
+}
+  
+.top__button {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 234px;
+    height: 48px;
+    border-radius: 30px;
+    background: rgb(156, 3, 50);
+    transition: all 0.3s;
+}
+  
+.top__button:hover {
+    transform: scale(1.05);
+}
+  
+.for-box {
+    background-image: url(img/Rectangle\ 5.jpg);
+    background-size: cover;
+    height: 556px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+  
+.for {
+    display: flex;
+    padding-top: 128px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+  
+.for__item {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 16px;
+}
+  
+.for__item_1 {
+    background-image: url(img/Rectangle\ 6.jpg);
+    width: 379px;
+    height: 300px;
+    flex-shrink: 0;
+}
+  
+.for__item_2 {
+    background-image: url(img/Rectangle\ 7.png);
+    height: 300px;
+    width: 379px;
+    flex-shrink: 0;
+}
+  
+.for__item_3 {
+    background-image: url(img/Rectangle\ 8.jpg);
+    width: 379px;
+    height: 300px;
+    flex-shrink: 0;
+}
+  
+.product-box {
+    background-image: url(img/Rectangle\ 2.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+  
+.product__tittle {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    size: 48px;
+    display: flex;
+    width: 700px;
+    height: 125px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+  
+.product__text {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    width: 584px;
+    padding-bottom: 44px;
+}
+  
+.product__img {
+    display: flex;
+    flex-direction: row-reverse;
+}
+  
+@import 'mobile'
