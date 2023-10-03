@@ -97,10 +97,12 @@ body {
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    line-height: 32px;
+    line-height: 60px;
     display: flex;
     align-items: flex-end;
     border-radius: 16px;
+    background-repeat: round;
+    padding-left: 32px;
 }
   
 .for__item_1 {
@@ -141,7 +143,6 @@ body {
     line-height: 32px;
     size: 48px;
     display: flex;
-    width: 700px;
     height: 125px;
     flex-direction: column;
     justify-content: center;
@@ -155,7 +156,6 @@ body {
     font-style: normal;
     font-weight: 300;
     line-height: 32px;
-    width: 584px;
     padding-bottom: 44px;
 }
   
@@ -164,4 +164,4 @@ body {
     flex-direction: row-reverse;
 }
   
-@import 'mobile'
+@import 'mobile';
