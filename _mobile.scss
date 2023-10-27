@@ -21,6 +21,11 @@
     }
 
     .top {
+        &__content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
         &__text {
             width: 343px;
             color: #FFF;
@@ -76,6 +81,14 @@
     }
 
     .product {
+        &__form {
+            display: flex;
+            flex-direction: column;
+            gap: 64px;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 178px;
+        }
         &__tittle {
             color: #FFF;
             text-align: center;
@@ -98,6 +111,45 @@
             width: 344px;
             height: 236px;
             flex-shrink: 0;
+        }
+    }
+
+    .sample {
+        &__form {
+            display: flex;
+            flex-direction: column;
+            gap: 64px;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 178px;
+        }
+        &__img {
+            display: flex;
+        }
+    }
+
+    .beforefooter {
+        &__tittle {
+            color: #FFF;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &__text {
+            color: #FFF;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 22px;
+        }
+        &__button {
+            display: flex;
+            justify-content: center;
         }
     }
 }
