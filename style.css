@@ -69,6 +69,10 @@ body {
   border-radius: 30px;
   background: rgb(156, 3, 50);
   transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 
 .top__button:hover {
